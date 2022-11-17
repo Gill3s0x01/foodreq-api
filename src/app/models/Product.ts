@@ -19,7 +19,7 @@ export const Product = model(
       type: Number,
       required: true,
     },
-    ingredientes: {
+    ingredients: {
       required: true,
       type: [
         {
